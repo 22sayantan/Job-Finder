@@ -12,19 +12,19 @@ const Search = () => {
       <form action="">
         <div className="firstDiv flex justify-between items-center rounded-[10px] gap-[1rem] bg-white p-5 h-[7rem] shadow-lg shadow-gray-700">
           
-          <div className="flex gap-2 items-center">
+          <div className="search_section_fst gap-2 items-center">
             <RiSearch2Line className="text-[1.5rem] cursor-pointer"/>
             <input type="text" className="input bg-transparent border-0 border-b-2" placeholder='search you job here ......'/>
             <AiOutlineCloseCircle className="text-[1.5rem] cursor-pointer hover:text-[green]"/>
           </div>
 
-          <div className="flex gap-2 items-center">
+          <div className="search_section_fst gap-2 items-center">
             <CgOrganisation className="text-[1.5rem] cursor-pointer"/>
             <input type="text" className="input bg-transparent border-0 border-b-2" placeholder='search you job here ......'/>
             <AiOutlineCloseCircle className="text-[1.5rem] cursor-pointer hover:text-[green]"/>
           </div>
 
-          <div className="flex gap-2 items-center">
+          <div className="search_section_fst gap-2 items-center">
             <TfiLocationPin className="text-[1.5rem] cursor-pointer"/>
             <input type="text" className="input bg-transparent border-0 border-b-2" placeholder='search you job here ......'/>
             <AiOutlineCloseCircle className="text-[1.5rem] cursor-pointer hover:text-[green]"/>
@@ -34,7 +34,7 @@ const Search = () => {
         </div>
       </form>
 
-      <div className="secDiv flex items-center gap-10 justify-center">
+      <div className="secondDiv flex items-center gap-10 justify-center">
 
         <div className="singleSearch flex items-center gap-2">
           <label htmlFor="relevance" className='text-[#808080] font-semibold'>Sort by:</label>

@@ -1,0 +1,22 @@
+.navBar{
+  display: flex;
+  align-items: center;
+
+  .logoDiv{
+      flex: 2;
+      text-align: center;
+}
+
+  .menu{
+      flex: 8;
+      padding: 0 28rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      li{
+          font-size: 20px;
+      }
+  }
+}
